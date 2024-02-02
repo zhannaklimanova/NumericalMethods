@@ -574,7 +574,7 @@ disp(abs(A*x-b));
 % * https://www.youtube.com/watch?v=lOKTXOWi68Y
 % * http://buzzard.ups.edu/courses/2014spring/420projects/math420-UPS-spring-2014-reid-LU-pivoting.pdf
 %% Appendix
-% Functions for Question 3.
+% Functions for Part 3.
 
 function S = naiveSum(X)
     % S is the sum of all elements in vector X
@@ -614,7 +614,7 @@ function S = improvedSum(X)
 end
 %% 
 % 
-% Functions for Question 5.
+% Functions for Part 5.
 
 function [L, U] = LU_decompositon(A)
     % L  is lower triagular matrix
