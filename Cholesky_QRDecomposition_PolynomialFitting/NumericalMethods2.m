@@ -273,7 +273,7 @@ disp(Mtest)
 % In the code below, MATALB's QR decomposition function is used to find the polynomial 
 % coefficients if we assume a polynomial model of order 1.* 
 
-load('Polynomial_Fitting_Data.mat');
+load("Polynomial_Fitting_Data.mat");
 polynomial_degree = 1;
 x = x_given;
 y = y_given;
@@ -326,8 +326,8 @@ title({'Part 4b';'The Obtained Model Using 1^{st} Degree Polynomial'})
 
 load('Polynomial_Fitting_Data.mat');
 polynomial_degree = 6;
-x = x_given(1:20:end);  % x has 15 data points
-y = y_given(1:20:end);  % y has 15 data points
+x = x_given(1:15:end);  % x has 15 data points
+y = y_given(1:15:end);  % y has 15 data points
 
 % Polynomial Matrix 
 Mp= PolynomialMatrix(x, polynomial_degree);
@@ -388,8 +388,8 @@ grid on
 
 load('Polynomial_Fitting_Data.mat');
 polynomial_degree = 14;
-x = x_given(1:20:end);  % x has 15 data points 
-y = y_given(1:20:end);  % y has 15 data points
+x = x_given(1:15:end);  % x has 15 data points 
+y = y_given(1:15:end);  % y has 15 data points
 
 % Polynomial Matrix 
 Mp= PolynomialMatrix(x, polynomial_degree);
