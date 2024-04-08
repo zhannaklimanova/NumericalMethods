@@ -135,8 +135,6 @@ plot(Q1_Tref,Q1_ref_sol,'r-','LineWidth',2,'displayname','True Solution') % plot
 hold on 
 %-------------------------------------------------------------------------------
 
-
-% plot your solution here.
 plot(T,y,'b--','LineWidth',1.5,'displayname','Backward Euler')
 % Note: the variable y is the y(t).                         
 %--------------------------------------------------------------------------------                                                              
@@ -209,8 +207,6 @@ plot(Q1_Tref,Q1_ref_sol,'r-','LineWidth',2,'displayname','True Solution') % plot
 hold on 
 %-------------------------------------------------------------------------------
 
-
-% plot your solution here.
 plot(T,y,'b--','LineWidth',1.5,'displayname','Forward Euler')
 % Note: the variable y is the y(t).                          
 %--------------------------------------------------------------------------------                                                              
@@ -256,8 +252,6 @@ plot(Q1_Tref,Q1_ref_sol,'r-','LineWidth',2,'displayname','True Solution') % plot
 hold on 
 %-------------------------------------------------------------------------------
 
-
-% plot your solution here.
 plot(T,y,'b--','LineWidth',1.5,'displayname','Backward Euler')
 % Note: the variable y is the y(t).                            
 %--------------------------------------------------------------------------------                                                              
